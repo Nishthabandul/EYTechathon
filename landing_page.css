@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/government-social-construction-powerpoint-background_9652ed42a9__783_440.jpg');
+    background-size: cover; /* Make the background cover the entire screen */
+    background-position: center center; /* Position the image in the center */
+    color: #333;
+  }
+  
+  /* Header section styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 74, 173, 0.85); /* Added transparency to allow background image visibility */
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff9800;
+  }
+  
+  /* Hero section styling */
+  .hero {
+    background: rgba(0, 74, 173, 0.6); /* Slight transparency on background to allow image visibility */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .cta-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Feature section styling */
+  .feature {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency on background */
+  }
+  
+  .feature-button {
+    background-color: #004aad;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-button:hover {
+    background-color: #003377;
+  }
+  
+  /* Footer section styling */
+  footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.1em;
+  }
+  
+  footer .social-links {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .social-links li {
+    margin: 0 15px;
+  }
+  
+  footer .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links li a:hover {
+    color: #ff9800;
+  }
+  
